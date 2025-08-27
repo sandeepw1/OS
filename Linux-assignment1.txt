@@ -1,0 +1,24 @@
+Linux Lab Question
+
+1. Create a directory by name data in the user home directory. 
+mkdir ~/data      
+Go to data directory.
+cd ~/data
+Create files by name test1 to test200 in the data directory.
+touch test{1..200}
+
+2. Create a directory by name data1 in the user home directory.
+Copy files test1 to test50 to data1 directory.
+ 
+3. Create a directory by name data2 in the user home directory.
+move files test50 to test59 to the data2 directory.
+
+4. create a directory by name dt3 in the user home directory.
+copy files test150 to test200 to this dt3 directory.
+
+5. Go to user home directory (Type cd only)
+rename the dt3 directory to data3
+
+6. Delete data data1 data2 and data3 directories using single command.
+
+

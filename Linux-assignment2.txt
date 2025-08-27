@@ -1,0 +1,10 @@
+Download the file from https://github.com/sandeepw1/linux/data.csv
+
+1. Display the first 15 lines of the file.
+2. Display the last 20 lines of the file.
+3. Display the lines which contain information about the volvo cars
+4. Store the lines which contain information about the Mercedes cars in file by name Mercedes.txt
+5. Store the lines which contain information about the ford cars in file by name ford.txt
+6. Create a file by name emission.txt that will contain information from the columns Model, Weight and CO2. 
+7. Create a directory by name cars in the user home directory. 
+8. Move files Mercedes.txt, ford.txt and emission.txt to cars directory.

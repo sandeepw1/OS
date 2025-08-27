@@ -1,0 +1,36 @@
+1. Write a shell script which takes a number from a user and displays if the number is even or odd. Display the result with blinking text.
+##############
+2. Write a shell script which takes 2 numbers from the user and checks if number 1 is greater than number 2. Display the result in red color.
+Hint:-
+if [ $n1 -gt $n2 ] 
+##############
+3. Write a shell scrip that will ask the user following information.
+name, age, email, mobile, city. If the age of the user is above 50 then set the discount to 30% else discount should be 10%. Then store all this information in a file by name customer.txt. Each line in the file will contain a new customer info. 
+
+Hint:-
+echo "$name,$age,$email,$mobile,$city,$discount" >> customer.txt
+
+Modify the above script. Ask user the mobile number first. Check if the mobile number is present in the file. If the mobile number is in the file display message "Thank You!! Already Registered" else ask the details and store in the file. 
+##########
+
+4. Write a shell script using case. Ask user the country. If the user is from America display the current dollar to rupee rate. If the user is from Germany then display the current Euro to rupee rate. for all other inputs it will display message "We will get back to you!!!"
+For all users display "Welcome to INDIA!!!" 
+
+Modify above script and ask user how much currency user has? Convert it to Rupee and display. 
+
+5. Write a shell script to calculate the factorial of a number given by the user.
+Hint: - 
+factorial 4  --- 4x3x2x1 
+
+
+6. Write a shell script using function. The script will take 2 numbers from the user and operation to perform. And display result.
+e.g. num1 10 and num2 20 and operation add.
+Hint:- 
+add() {
+	result=$(( $1 + $2 ))
+	echo result
+}
+add 10 20 
+# Number 10 and 20 are passwd as variable 1 and 2
+
+
